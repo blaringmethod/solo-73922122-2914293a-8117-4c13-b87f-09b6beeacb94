@@ -1,0 +1,98 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  background: #f4f1ea;
+  color: #2c2c2c;
+}
+header {
+  background: #5b3a29;
+  color: #fff8ec;
+  padding: 12px 24px;
+}
+header h1 { margin: 0; font-size: 20px; }
+header a { color: inherit; text-decoration: none; }
+main { max-width: 880px; margin: 20px auto; padding: 0 16px; }
+footer { text-align: center; color: #8a7f70; font-size: 12px; padding: 16px; }
+.card {
+  background: #fffdf8;
+  border: 1px solid #e3d9c8;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 18px;
+}
+.card h2 { margin-top: 0; font-size: 17px; color: #5b3a29; }
+.card h3 { font-size: 15px; margin-bottom: 6px; }
+table { border-collapse: collapse; margin: 8px 0; }
+th, td { border: 1px solid #ddd2bd; padding: 5px 12px; font-size: 14px; }
+th { background: #f0e8d8; }
+textarea {
+  width: 100%;
+  font-family: "SF Mono", Consolas, monospace;
+  font-size: 14px;
+  border: 1px solid #cfc4ae;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 8px;
+  background: #fffefaf0;
+}
+input {
+  border: 1px solid #cfc4ae;
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 14px;
+}
+input[type="number"] { width: 90px; }
+button {
+  background: #7a5230;
+  color: #fff8ec;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+button:hover { background: #8f6238; }
+button.danger { background: #a33b3b; }
+button.link-btn {
+  background: none;
+  color: #a33b3b;
+  padding: 0;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.inline-form { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; }
+.inline-form label { display: flex; flex-direction: column; font-size: 13px; gap: 4px; }
+.hint { color: #8a7f70; font-size: 13px; }
+.flash { padding: 10px 14px; border-radius: 6px; margin-bottom: 12px; font-size: 14px; }
+.flash.ok { background: #e5f2e0; border: 1px solid #9dc791; color: #2f6427; }
+.flash.error { background: #fbe4e0; border: 1px solid #d89a8e; color: #8c2f22; }
+.warn {
+  background: #fdf3d7;
+  border: 1px solid #e0c878;
+  color: #7a5d12;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.infeasible {
+  background: #fbe4e0;
+  border: 1px solid #d89a8e;
+  color: #8c2f22;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.old-solution {
+  border: 1px dashed #c9b795;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 10px 0;
+  background: #faf6ec;
+}
+.old-solution summary { cursor: pointer; color: #8a7f70; font-size: 13px; }
+.big { font-size: 20px; color: #5b3a29; }
+.ok-text { color: #2f6427; }
+.hole-list { columns: 2; font-size: 14px; }
